@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+psycopg2
+streamlit_modal
+plotly
+folium
