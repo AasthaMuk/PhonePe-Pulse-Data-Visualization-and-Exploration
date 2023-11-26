@@ -58,6 +58,7 @@ def set_css():
                 border-radius: 10px; /* Rounded corners */
                 margin: 20px; /* Margin */
                 padding: 20px;
+                text-align:left;
             }
 
             #custom-container2 {
@@ -551,11 +552,12 @@ def menu_about(selected):
         with col1:
             st.write(" ")
             st.write(" ")
-            st.markdown("### :violet[About PhonePe Pulse:] ")
+            st.markdown(f"""<div style="color: white; font-family: 'Arial', sans-serif; font-size: 40px; font-weight: bold; text-align:left;">About PhonePe Pulse:</div>""",unsafe_allow_html=True)
             st.markdown(f"""<div id="custom-container1"> BENGALURU, India, On Sept. 3, 2021 PhonePe, India's leading fintech platform, announced the launch of PhonePe Pulse, India's first interactive website with data, insights and trends on digital payments in the country. The PhonePe Pulse website showcases more than 2000+ Crore transactions by consumers on an interactive map of India. With  over 45% market share, PhonePe's data is representative of the country's digital payment habits.The insights on the website and in the report have been drawn from two key sources - the entirety of PhonePe's transaction data combined with merchant and customer interviews. The report is available as a free download on the PhonePe Pulse website and GitHub.</div>""",unsafe_allow_html=True)
-            st.markdown("### :violet[About PhonePe:] ")
+            st.markdown(f"""<div style="color: white; font-family: 'Arial', sans-serif; font-size: 40px; font-weight: bold; text-align:left;">About PhonePe:</div>""",unsafe_allow_html=True)
             st.markdown(f"""<div id="custom-container1"> PhonePe is India's leading fintech platform with over 300 million registered users. Using PhonePe, users can send and receive money, recharge mobile, DTH, pay at stores, make utility payments, buy gold and make investments. PhonePe forayed into financial services in 2017 with the launch of Gold providing users with a safe and convenient option to buy 24-karat gold securely on its platform. PhonePe has since launched several Mutual Funds and Insurance products like tax-saving funds, liquid funds, international travel insurance and Corona Care, a dedicated insurance product for the COVID-19 pandemic among others. PhonePe also launched its Switch platform in 2018, and today its customers can place orders on over 600 apps directly from within the PhonePe mobile app. PhonePe is accepted at 20+ million merchant outlets across Bharat</div>""",unsafe_allow_html=True)
-            st.write("**:violet[Image and content source]** ⬇️")
+            st.markdown(f"""<div style="color: white; font-family: 'Arial', sans-serif; font-size: 25px; font-weight: bold; text-align:left;">Image and content source ⬇️</div>""",unsafe_allow_html=True)
+            # st.write("**:violet[Image and content source]** ")
             st.write("https://www.prnewswire.com/in/news-releases/phonepe-launches-the-pulse-of-digital-payments-india-s-first-interactive-geospatial-website-888262738.html")
             
         with col2:
