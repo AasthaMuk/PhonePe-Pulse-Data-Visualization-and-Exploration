@@ -491,7 +491,7 @@ def menu_view_map(selected):
         
         if Type == "Transactions":
             # No data present for Quarters 2,3 and 4 for Transactions
-            if Year == 2023 and Quarter in [2,3,4]:
+            if Year == 2023 and Quarter == 4:
                 st.markdown(f"""<div id="custom-container1"> Sorry No Data to Display for 2023 Qtr 2,3,4 !!!</div>""", unsafe_allow_html=True)
             else:
                 # Overall State Data - TRANSACTIONS AMOUNT - INDIA MAP 
@@ -570,8 +570,8 @@ def menu_about(selected):
 
 # Custom function to create a side-bar
 def set_sidebar():
-    # st.sidebar.title(":wave: :violet[**Hi Aastha**]")
-    st.sidebar.title(":bust_in_silhouette: :violet[**Hi Aastha**]")
+    
+    st.sidebar.markdown('<p style="color: white; font-size:18px">🦰 Hi Aastha !!!</p>',unsafe_allow_html=True)
     with st.sidebar:
         selected = option_menu("Menu", ["Home","View Map","View Charts","About"], 
                     icons=["house","graph-up-arrow","bar-chart-line", "exclamation-circle"],
