@@ -19,7 +19,7 @@ insights and information that can be visualized in a user-friendly manner.
 3. pandas
 4. numpy
 5. psycopg2
-6. PIL
+6. PIL![1700985082933](image/README/1700985082933.png)
 
 ### Workflow:
 
