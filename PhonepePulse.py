@@ -74,7 +74,7 @@ def set_css():
                  background-color: white !important;   
             }
             
-            
+        
         </style>
     """
     st.markdown(styles, unsafe_allow_html=True)
