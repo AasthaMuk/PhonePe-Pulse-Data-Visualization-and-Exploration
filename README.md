@@ -2,6 +2,8 @@
 
 This project aims to develop a  user-friendly interactive dashboard using Streamlit application to visualize the Phonepe Pulse data using Plotly.
 
+Video Link : [Click Here](https://www.linkedin.com/feed/update/urn:li:activity:7134510286509654017/)
+
 ### Problem Statement:
 
 The Phonepe pulse Github repository contains a large amount of data related to
