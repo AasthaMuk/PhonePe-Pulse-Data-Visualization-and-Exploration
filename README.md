@@ -19,9 +19,11 @@ insights and information that can be visualized in a user-friendly manner.
 3. pandas
 4. numpy
 5. psycopg2
-6. PIL![1700985082933](image/README/1700985082933.png)
+6. PI
 
 ### Workflow:
+
+![1700985322312](image/README/1700985322312.png)
 
 1. **Data extraction:** Clone the Github using python scripting to fetch the data from the
    Phonepe pulse Github repository and store it in CSV format.
