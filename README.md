@@ -21,7 +21,7 @@ insights and information that can be visualized in a user-friendly manner.
 3. pandas
 4. numpy
 5. psycopg2
-6. PI
+6. PIL
 
 ### Workflow:
 
